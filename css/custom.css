@@ -526,6 +526,9 @@ img {
   display: flex;
   justify-content: center;
 }
+.carousel {
+  width: 100%;
+}
 .main_banner .carousel-caption {
   text-align: center;
   bottom: 70px;
