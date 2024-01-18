@@ -199,61 +199,9 @@
     <script src="js/owl.carousel.min.js"></script>
     <script src="js/owlmain.js"></script>
     
-    <script>
-        $(document).on("scroll", function() {
-            if ($(document).scrollTop() > 0) {
-                $(".main_header").addClass("shrink");
-
-            } else {
-                $(".main_header").removeClass("shrink");
-
-            }
-        });
-    </script>
-    <script>
-        (function($) {
-            /* $('.accordion_event > li:eq(0) .acco_title').addClass('active').next().slideDown();*/
-
-            $('.acc__main .acc__title').click(function(j) {
-                var dropDown = $(this).closest('.acc__card').find('.acc__panel');
-
-                $(this).closest('.acc__main').find('.acc__panel').not(dropDown).slideUp();
-
-                if ($(this).hasClass('active')) {
-                    $(this).removeClass('active');
-                } else {
-                    $(this).closest('.acc__main').find('.acc__title.active').removeClass('active');
-                    $(this).addClass('active');
-                }
-
-                dropDown.stop(false, true).slideToggle();
-
-                j.preventDefault();
-            });
-        })(jQuery);
-    </script>
-    <script>
-        (function($) {
-            /* $('.accordion_event > li:eq(0) .acco_title').addClass('active').next().slideDown();*/
-
-            $('.accordion_era .main_acco_title').click(function(j) {
-                var dropDown = $(this).closest('.accordion_block').find('.acco_panel');
-
-                $(this).closest('.accordion_era').find('.acco_panel').not(dropDown).slideUp();
-
-                if ($(this).hasClass('active')) {
-                    $(this).removeClass('active');
-                } else {
-                    $(this).closest('.accordion_era').find('.main_acco_title.active').removeClass('active');
-                    $(this).addClass('active');
-                }
-
-                dropDown.stop(false, true).slideToggle();
-
-                j.preventDefault();
-            });
-        })(jQuery);
-    </script>
+    
+    
+    
     
 </body>
 
