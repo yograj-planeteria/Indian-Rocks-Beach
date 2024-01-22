@@ -122,45 +122,68 @@
             </div>
         </div>
         <div class="page_title no_img">
-            <h1>Meeting Information</h1>
+            <h1>Event Details</h1>
         </div>
         
         <div class="meeting-wraper">
             <div class="meeting-content">
                 <div class="container">
                     <div class="row">
-                        <div class="col-md-7 col-lg-7 meeting_panel" >
-                            
-                                <h4>Board Meeting</h4>
-                                <div class="meeting-cancel-txt">
-                                    <h5>TUESDAY, NOVEMBER 22, 2022 10AM - 12PM</h5>
-                                    <div class="cancel-button">
-                                        CANCELLED
-                                    </div>
-                                    <div class="cancel-txt">
-                                        *only to appear on cancelled meetings
-                                    </div>
+                        <div class="col-md-5 col-lg-5">
+                            <img src="img/img-event.png"/>
+                        </div>
+                        <div class="col-md-7 col-lg-7 meeting_panel">
+                                <h3>Title of Event</h3>
+                                <p>
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum molestie aliquam erat, ut accumsan turpis placerat sed. Donec dapibus nisl ut pellentesque suscipit. Nullam interdum, enim aliquam lacinia interdum, ipsum risus ultrices nunc, nec dignissim libero felis in ex. Donec non sem accumsan, suscipit magna id, auctor quam. Mauris blandit iaculis sapien ac pellentesque. Duis fermentum mollis.
+                                </p>
+                                
+                                <div class="event-detail-txt">
+                                    <div class="cancel-button">CANCELLED</div>
+                                    <div class="cancel-txt">*only to appear on cancelled meetings</div>
                                 </div>
+                                <h5>TUESDAY, NOVEMBER 22, 2022 10AM - 12PM</h5>
 
                                 <p class="calendar-txt">
                                     <a href="#">Add to Calendar</a>
                                 </p>
-                                <div class="document_era">
-                                    <h5>Agenda</h5>
-                                    <a href="#" class="doc_block"> <img src="img/icon_pdf.svg" alt="pdf"> <span> Download PDF</span> </a>
-                                </div>
+                                
                                 <p>Location Information<br> Location Information 2</p>
                                 <p><a href="#" class="doc_block"> <span> Directions</span> </a></p>
-                                <p>
-                                    Culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptartem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi ropeior.
-                                </p>
-                                <div class="pt-4">
-                                    <a class="viewlearn">BACK TO ALL MEETINGS</a>
+                                
+                                
+                                <div class="evt_slider">
+                                    <h3>More Event Dates</h3>
+                                    <div id="news-slider" class="owl-carousel slider-news">
+                                        <div class="post-slide">
+                                            <h5>TUESDAY, JUNE 20, 2022 10AM - 1PM</h5>
+                                            <p class="calendar-txt">
+                                                <a href="#">Add to Calendar</a>
+                                            </p>
+                                        </div>
+                                        <div class="post-slide">
+                                            <h5>TUESDAY, JUNE 20, 2022 10AM - 1PM</h5>
+                                            <p class="calendar-txt">
+                                                <a href="#">Add to Calendar</a>
+                                            </p>
+                                        </div>
+                                        <div class="post-slide">
+                                            <h5>TUESDAY, JUNE 20, 2022 10AM - 1PM</h5>
+                                            <p class="calendar-txt">
+                                                <a href="#">Add to Calendar</a>
+                                            </p>
+                                        </div>
+                                        <div class="post-slide">
+                                            <h5>TUESDAY, JUNE 20, 2022 10AM - 1PM</h5>
+                                            <p class="calendar-txt">
+                                                <a href="#">Add to Calendar</a>
+                                            </p>
+                                        </div>
+                                        
+                                    </div>
+                                    <h6>(4) Remaining dates for this event</h6>
                                 </div>
                             
-                            <div class="pagination justify-content-center">
-                                <img src="img/pagination.png" alt="">
-                            </div>
                         </div>
                     </div>
                 </div>
@@ -201,7 +224,33 @@
     
     
     
-    
+    <script>
+        $(document).ready(function() {
+            $("#news-slider").owlCarousel({
+                items: 3,
+                itemsDesktop: [1199, 3],
+                itemsDesktopSmall: [980, 2],
+                itemsMobile: [600, 1],
+                navigation: true,
+                navigationText: ["", ""],
+                pagination: true,
+                autoPlay: true,
+                nav: true,
+                responsive: {
+                    0: {
+                        items: 1
+                    },
+                    600: {
+                        items: 2
+                    },
+                    1000: {
+                        items: 3,
+
+                    }
+                }
+            });
+        });
+    </script>
     
 </body>
 
