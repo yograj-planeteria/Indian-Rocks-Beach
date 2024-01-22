@@ -1906,7 +1906,7 @@ p.calendar-txt a:hover{
 .past-up-next {
   display: flex;
   justify-content: space-between;
-  margin-top: 70px;
+  margin-top:40px;
 }
 .past-up-next a{
   color: #084980;
@@ -2074,19 +2074,24 @@ p.calendar-txt a:hover{
   padding-left: 20px;
   justify-content: end;
 }
-
 .list_grid_view_evt a {
   margin-right: 20px;
   padding: 5px 10px;
   background-color: #F5F8FA;
+  width: 170px;
+  text-align: center;
+  cursor: pointer;
 }
-.list_grid_view_evt a img{
+.list_grid_view_evt a:hover{
   background-color: #084980;
   color: #ffffff;
-  filter: brightness(0) invert(1);
 }
 .list_grid_view_evt a img {
   filter: brightness(0) invert(0);
+  margin-left: 5px;
+}
+.list_grid_view_evt a:hover img{
+  filter: brightness(0) invert(1);
 }
 /******* calendar-event end*********/
 
