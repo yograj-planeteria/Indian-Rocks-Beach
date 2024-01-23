@@ -1527,12 +1527,12 @@ label.green_label {
   min-width: 130px;
   background-size: 18px;
 }
-.search_filter_title .filter_box.col-three .reset {
+.search_filter_title .filter_box.col-three .reset_link {
   text-align: right;
-  margin-right: -70px;
+  margin-right: -75px;
   margin-top: -22px;
 }
-.reset a {
+.reset_link a {
   color: #032746;
   font-weight: 600;
 }
