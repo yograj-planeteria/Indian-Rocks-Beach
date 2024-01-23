@@ -861,7 +861,6 @@ img {
   padding: 118px 0px 15px 0px;
   height: 376px;
   background-size: cover;
-  margin-top: 40px;
 }
 .footer .foot_media ul li a img {
   max-height: 35px;
@@ -950,7 +949,7 @@ img {
 .page_title.no_img{
   background-color: #F0F7FD;
     min-height: 150px;
-    margin-bottom: 10px;
+    /* margin-bottom: 10px; */
 }
 .page_title h1 {
   position: relative;
@@ -1557,7 +1556,7 @@ label.green_label {
 
 /*********News detail start*****/
 .news_wraper{
-  margin-top: 30px;
+  margin:30px 0;
 }
 .news_img img{
   width: 100%;
@@ -2421,5 +2420,131 @@ a.link {
 }
 
 /****** Search resuilt ends********/
+
+/******contact_wraper start********/
+.contact_wraper{
+  margin-top: -10px;
+}
+.contact-main{
+  padding: 45px 80px;
+}
+.contact-area{
+  padding-bottom: 15px;
+}
+.contact-area p{
+  padding-bottom: 5px;
+  margin: 0;
+}
+.contact-area p a{
+  color: #0562B2;
+  text-decoration: underline;
+  font-weight: 600;
+}
+/******contact_wraper ends********/
+
+/******404 error start********/
+.no-found-wraper {
+  padding: 80px 0;
+  position: relative;
+  background-color: #F0F7FD;
+}
+.no-found-wraper > div {
+  position: relative;
+}
+.no-found-info {
+  text-align: center;
+}
+.no-found-info h1 {
+  margin-bottom: 20px;
+    color: #0C0D0F;
+    text-transform: uppercase;
+    font-size: 60px;
+}
+.no-found-info h2 {
+  color: #032746;
+    font-size: 300px;
+    line-height: 300px;
+}
+.no-found-info h3 {
+  font-size: 30px;
+    color: #0C0D0F;
+}
+.no-found-info .search_box {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 40px;
+  margin-bottom: 50px;
+}
+/******404 error ends********/
+
+/******interactive -map details start (Parks landing page)********/
+.lightblue {
+  background: #F0F7FD;
+}
+.map_area .searchFilterBlock {
+  padding: 80px 30px;
+}
+.map_area .searchFilterBlock .search_box {
+  max-width: 100%;
+}
+.map_area .col-re {
+  padding: 0px;
+}
+.pro_cards {
+  padding-top: 60px;
+  padding-bottom: 120px;
+}
+.pro_cards .container{
+  max-width: 1000px;
+}
+.main_card_col {
+  padding-left: 8px;
+  padding-right: 8px;
+  margin-bottom: 20px;
+}
+.main_card {
+  box-shadow: 0px 3px 6px #00000029;
+  border: 1px solid #EDEEEF;
+  height: 100%;
+}
+.card_content {
+  padding:18px;
+}
+.card_content p {
+  padding-bottom: 10px;
+   margin: 0;
+}
+.card_content > a {
+  color: #203970;
+  font-weight: 700;
+  text-decoration: underline;
+}
+.card_content ul{
+  list-style: none;
+  padding: 0;
+  margin: 0 0 40px 0;
+  float: left;
+}
+.card_content ul li{
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  background-color: #032746;
+  border-radius: 2px;
+  width: 30px;
+  height: 30px;
+  float: left;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 1px 1px;
+}
+.main_card.no-img {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+/******interactive -map details end (Parks landing page)********/
 
 
