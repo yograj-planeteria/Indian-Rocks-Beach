@@ -1575,7 +1575,7 @@ label.green_label {
 }
 /*********News detail end*****/
 
-/* calendar-meeting start*/
+/***** calendar-meeting start*******/
 .meeting-wraper {
   padding-top: 10px;
   padding-bottom: 50px;
@@ -1891,8 +1891,6 @@ p.calendar-txt a:hover{
   text-align: center;
   border: 0;
 }
-
-
 .nav-tabs .nav-item {
   margin-bottom: 0px;
 }
@@ -1900,7 +1898,7 @@ p.calendar-txt a:hover{
   animation-name: center;
   justify-content: center;
 }
-/* calendar-meeting ends********/
+/********** calendar-meeting ends********/
 
 /******* calendar-event start********/
 .past-up-next {
@@ -1915,7 +1913,6 @@ p.calendar-txt a:hover{
 .past-up-next a:hover{
   text-decoration: underline;
 }
-
 .past-up-next h4 {
   margin: 0px;
   color: #010101;
@@ -2313,5 +2310,116 @@ a.link {
 }
 
 /****** Department-detail ends********/
+
+/****** Search resuilt start********/
+.resultWraper .container {
+  max-width: 1000px;
+}
+.resull_filter .container {
+  max-width: 1080px;
+}
+.main_search_content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 50px;
+}
+.main_search_content h5 {
+  margin-right: 15px;
+  margin-bottom: 0px;
+}
+.main_search_content .form-control {
+  min-width: 450px;
+}
+.main_search_content .btn {
+  background: #032746;
+  border-radius: 0;
+  width: 50px;
+  border: 0;
+  position: absolute;
+  right: 0;
+  height: 50px;
+  z-index: 9;
+}
+.rslt_txt {
+  margin-left: auto;
+  margin-right: auto;
+}
+.acc__card {
+  background: #F5F8FA;
+  margin-bottom: 12px;
+  border-radius: 5px;
+}
+.acc__title {
+  padding:20px 30px;
+  position: relative;
+}
+.acc__title h3 {
+  margin: 0px;
+  font-size: 20px;
+}
+.acc__title .acco_sign {
+  position: absolute;
+  right: 20px;
+  top: 20px;
+}
+.acc__title.active .acco_sign img {
+  transform: rotate(180deg);
+}
+.acc__panel {
+  display: none;
+  padding: 10px 30px 20px;
+}
+.resull_filter {
+  padding-top: 20px;
+  padding-bottom: 70px;
+}
+.sc_filter {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: end;
+}
+.filter_reset {
+  display: flex;
+}
+.filter-box select {
+  min-width: 340px;
+}
+.filter_reset .reset {
+  margin-top: 45px;
+  margin-left: 10px;
+}
+.reset a {
+  color: #3573B3;
+  font-weight: bold;
+}
+.sort_boxResult {
+  margin-left: auto;
+  margin-bottom: 20px;
+  width: 200px;
+}
+.result_row {
+  background: #F5F8FA;
+  margin-bottom: 15px;
+  border-radius: 5px;
+}
+.result_row .rsltBody {
+  padding:20px 20px 10px 50px;
+  border: 1px solid #F5F8FA;
+}
+.result_row .rsltBody:hover {
+  padding:20px 20px 10px 50px;
+  border: 1px solid #084980;
+}
+.result_row .rsltBody h5 {
+  color: #032746;
+  padding-bottom: 7px;
+}
+.result_row .rsltBody h3 {
+  color: #0C0D0F;
+  padding-bottom: 3px;
+}
+
+/****** Search resuilt ends********/
 
 
