@@ -844,6 +844,10 @@ img {
   background: #084980;
   margin: 50px 0;
 }
+.signup-alerts.visitor-builder {
+  margin: 50px 0 0;
+  background-color: #032746;
+}
 .signup-alerts p {
   color: #fff;
 }
@@ -973,6 +977,9 @@ img {
   left: 162px;
   top: 275px;
   z-index: 1;
+}
+.main_breadcrumb.page-builder.visitor-builder {
+  top: 0;
 }
 .main_breadcrumb .breadcrumb {
   background: none;
@@ -2091,6 +2098,36 @@ p.calendar-txt a:hover{
   filter: brightness(0) invert(1);
 }
 /******* calendar-event end*********/
+
+/******* calendar-event-view start*********/
+.calendar-popup{
+  position: absolute;
+  top: 0;
+  width: 75%!important;
+  left: 0;
+  margin: auto;
+  right: 0;
+  bottom: 0;
+  height: 390px;
+  background-color: #F5F8FA;
+}
+.calendar-popup .expand-contentevt {
+  padding: 30px;
+}
+.calendar-popup .cancel-button {
+  background: #B11111;
+  color: #fff;
+  width: 200px;
+  justify-content: center;
+  margin-right: 20%;
+  text-align: center;
+  align-self: flex-start;
+  padding: 5px 10px;
+}
+.calendar-popup .cancel-txt {
+  font-size: 14px;
+}
+/******* calendar-event-view end*********/
 
 /****** meeting-detail start********/
 .meeting_panel {
