@@ -980,6 +980,7 @@ img {
 }
 .main_breadcrumb.page-builder.visitor-builder {
   top: 0;
+  left: 37px;
 }
 .main_breadcrumb .breadcrumb {
   background: none;
